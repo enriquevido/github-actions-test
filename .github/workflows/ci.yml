@@ -1,8 +1,7 @@
 name: Java CI workflow with maven
 
-on:
-	push:
-	pull_request:
+on: [push]
+
 jobs:
 	build-and-test:
 		runs-on: ubuntu-latest
